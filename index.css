@@ -125,46 +125,6 @@ width: 45.1px;
 height: 51.1px;
 }
 
-.carousel-item.active {
-background-color: #2e1a0c;
-}
-
-.carousel-item:not(.active) {
-cursor: pointer;
-}
-
-/* Add CSS for other pages if needed */
-
-.carousel button {
-margin: 0px 5px;
-border-radius: 38px;
-width: 39.78px;
-height: 39.78px;
-padding: 9px;
-display: inline;
-font-size: medium;
-background-color: rgba(201, 171, 150, 0.26);
-}
-
-.carousel-container {
-display: inline;
-padding: 5px 10px;
-border: none;
-margin: 0 5px;
-cursor: pointer;
-text-align: right;
-border-radius: 28px;
-}
-
-.carousel button a {
-color: #170B03;
-}
-
-.carousel button:hover {
-transform: scale(1.05);
-background-color: #c9ab96;
-}
-
 .ellipse-parent {
 top: 41px;
 left: 79px;
@@ -267,99 +227,105 @@ justify-content: center;
 padding: var(--padding-2xs) var(--padding-43xl);
 }
 .book-a-consultation {
-position: relative;
-line-height: 30.5px;
-font-weight: 500;
-cursor: pointer;;
+  position: relative;
+  line-height: 30.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.book-consultation {
+  position: absolute;
+  line-height: 30.5px;
+  font-weight: 500;
+  cursor: pointer;;
 }
 
 .book-a-consultation:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .instance-child {
-position: relative;
-width: 29.6px;
-height: 22.1px;
+  position: relative;
+  width: 29.6px;
+  height: 22.1px;
 }
 .book-a-consultation-parent {
-position: absolute;
-top: 789px;
-left: 378px;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: flex-start;
-gap: 9px;
+  position: absolute;
+  top: 789px;
+  left: 378px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
 }
 .homepage-child {
-position: absolute;
-top: 841px;
-left: 823px;
-border-radius: 5px;
-background-color: var(--color-dimgray-200);
-width: 139px;
-height: 13px;
+  position: absolute;
+  top: 841px;
+  left: 823px;
+  border-radius: 5px;
+  background-color: var(--color-dimgray-200);
+  width: 139px;
+  height: 13px;
 }
 .homepage-item {
-position: absolute;
-top: 1013px;
-left: -5px;
-background-color: var(--color-tan-300);
-width: 1440px;
-height: 695px;
+  position: absolute;
+  top: 1013px;
+  left: -5px;
+  background-color: var(--color-tan-300);
+  width: 1440px;
+  height: 695px;
 }
 .most-watched-episodes {
-position: absolute;
-top: 1058px;
-left: 480px;
-font-size: var(--font-size-21xl);
-text-transform: capitalize;
-font-weight: 500;
+  position: absolute;
+  top: 1058px;
+  left: 480px;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 500;
 }
 .video-frame-child {
-position: relative;
-border-radius: var(--br-14xl-7);
-width: 433px;
-height: 310px;
-object-fit: cover;
-z-index: 0;
-cursor: pointer;
+  position: relative;
+  border-radius: var(--br-14xl-7);
+  width: 433px;
+  height: 310px;
+  object-fit: cover;
+  z-index: 0;
+  cursor: pointer;
 }
 
 .video-frame-child:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .media-icon-child {
-position: relative;
-border-radius: 50%;
-background-color: var(--color-gainsboro-300);
-box-shadow: 0 2.8px 2.84px rgba(0, 0, 0, 0.22);
-width: 80.3px;
-height: 77.4px;
-z-index: 0;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-300);
+  box-shadow: 0 2.8px 2.84px rgba(0, 0, 0, 0.22);
+  width: 80.3px;
+  height: 77.4px;
+  z-index: 0;
 }
 .media-icon-item {
-position: absolute;
-margin: 0 !important;
-top: 17.5px;
-left: 25px;
-border-radius: 7.11px;
-width: 38px;
-height: 43px;
-z-index: 1;
+  position: absolute;
+  margin: 0 !important;
+  top: 17.5px;
+  left: 25px;
+  border-radius: 7.11px;
+  width: 38px;
+  height: 43px;
+  z-index: 1;
 }
 .rectangle-div {
-position: relative;
-border-radius: 8.42px;
-background: linear-gradient(
+  position: relative;
+  border-radius: 8.42px;
+  background: linear-gradient(
   180deg,
   rgba(0, 0, 0, 0.85),
   rgba(217, 217, 217, 0.28)
-);
-width: 9.3px;
-height: 38.8px;
+  );
+  width: 9.3px;
+  height: 38.8px;
 }
 .rectangle-parent {
 margin: 0 !important;
@@ -471,7 +437,14 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 padding: var(--padding-2xs) var(--padding-43xl);
+cursor: pointer;
 }
+
+.watch-container:hover {
+  transform: scale(1.05);
+}
+
+
 .about-us {
 position: absolute;
 top: 110px;
@@ -629,8 +602,6 @@ cursor: pointer;
 .order-now-button:hover {
 transform: scale(1.05);
 }
-
-
 .blank-black-male-hoodie-sweats-parent {
 margin: 0 !important;
 top: 19px;
@@ -859,7 +830,13 @@ left: 0;
 max-width: 100%;
 overflow: hidden;
 max-height: 100%;
+cursor: pointer;
 }
+
+.chevron-right-icon:hover {
+  transform: scale(1.05);
+}
+
 .left-arrow-key,
 .right-arrow-key {
 position: absolute;
@@ -1069,6 +1046,8 @@ z-index: 1;
 position: absolute;
 margin: 0 !important;
 }
+
+/*---Pay Attention------*/
 .instance-inner {
 top: 0;
 left: 0;
@@ -1086,6 +1065,8 @@ font-weight: 500;
 color: var(--color-black);
 z-index: 3;
 }
+/* ------------------------------------ */
+
 .rectangle-parent2,
 .rectangle-parent3,
 .rectangle-parent4,
@@ -1165,7 +1146,13 @@ padding: 10.102285385131836px 56.94015121459961px;
 z-index: 2;
 font-size: 22.96px;
 color: var(--color-black);
+cursor: pointer;
 }
+
+.watch-wrapper6:hover {
+  transform: scale(1.05);
+}
+
 .form-block {
 top: 4230px;
 left: 298px;
@@ -1210,7 +1197,13 @@ left: 501px;
 line-height: 40px;
 text-transform: capitalize;
 z-index: 2;
+cursor: pointer;
 }
+
+.subscribe-to-our:hover {
+  transform: scale(1.05);
+}
+
 .youremailcom {
 top: 13px;
 left: 23px;
@@ -1336,15 +1329,7 @@ width: 39.8px;
 height: 39.8px;
 z-index: 0;
 }
-.chevrons-left-icon {
-position: absolute;
-margin: 0 !important;
-top: 11.3px;
-left: 10.8px;
-width: 17.7px;
-height: 17.7px;
-z-index: 1;
-}
+
 .ellipse-container {
 position: relative;
 gap: 4.91px;
@@ -1364,17 +1349,73 @@ width: 39.8px;
 height: 39.8px;
 z-index: 0;
 }
+
+.chevrons-left-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 11.3px;
+  left: 10.8px;
+  width: 17.7px;
+  height: 17.7px;
+  z-index: 1;
+  cursor: pointer;
+}
+  
+.chevron-left-icon:hover {
+  transform: scale(1.05);
+}
+
+.chevron-left-icon.active {
+  background-color: #2e1a0c;
+}
+  
+.chevron-left-icon:not(.active) {
+  cursor: pointer;
+}
+
+.chevrons-left-icon1 {
+  cursor: pointer;
+}
+
+.chevron-left-icon1:hover {
+  transform: scale(1.05);
+}
+
+.chevron-left-icon.active {
+  background-color: #2e1a0c;
+}
+  
+.chevron-left-icon:not(.active) {
+  cursor: pointer;
+}
+
 .chevrons-left-icon1,
 .div7 {
 position: absolute;
 margin: 0 !important;
 z-index: 1;
 }
+
 .div7 {
 top: 11.8px;
 left: 14.7px;
 line-height: 14.98px;
+cursor: pointer;
 }
+
+.div7:hover {
+  transform: scale(1.05);
+}
+
+.div7.active {
+  background-color: #2e1a0c;
+}
+  
+.div7:not(.active) {
+  cursor: pointer;
+}
+
+
 .chevrons-left-icon1 {
 top: calc(50% - 9.1px);
 left: calc(50% - 8.1px);
@@ -1392,6 +1433,7 @@ justify-content: flex-start;
 gap: 3.93px;
 font-size: 19.64px;
 font-family: var(--font-podkova);
+cursor: pointer;
 }
 .nav-bar-child {
 position: relative;
@@ -1572,7 +1614,14 @@ width: 32.1px;
 height: 32.1px;
 overflow: hidden;
 flex-shrink: 0;
+cursor: pointer;
 }
+
+.social-icons:hover {
+  transform: scale(1.05);
+}
+
+
 .social-icons-parent,
 .socials {
 position: absolute;
