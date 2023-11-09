@@ -1,5 +1,5 @@
 /* /*Head------------------------------------------ */
-*{
+/* *{
   margin: 0;
 }
 
@@ -47,7 +47,7 @@ header{
   z-index: 1000;
   top: 0px;
   bottom: 0px;
-}
+} */
 
 .an-expression-of,
 .the-empyrean-couple {
@@ -443,7 +443,6 @@ cursor: pointer;
 .watch-container:hover {
   transform: scale(1.05);
 }
-
 
 .about-us {
 position: absolute;
@@ -1491,7 +1490,7 @@ z-index: 1;
 }
 .nav-item-parent,
 .navbar {
-width: 442px;
+width: 1134px;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -1499,8 +1498,8 @@ justify-content: flex-start;
 gap: 45px;
 }
 .navbar {
-width: 1134px;
-height: 97px;
+width: 1440px;
+height: 116px;
 align-items: center;
 gap: 491px;
 z-index: 0;
@@ -1562,10 +1561,11 @@ justify-content: flex-start;
 top: 0;
 left: 0;
 box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
-width: 1438px;
+width: 1440px;
 display: flex;
 gap: var(--gap-3xs);
 font-size: var(--font-size-base);
+padding: 0px;
 }
 .reviews-cards1 {
 height: 37.52%;
@@ -1655,9 +1655,4 @@ text-align: left;
 font-size: var(--font-size-6xl);
 color: var(--color-black);
 font-family: var(--font-poppins);
-}
-
-
-@media screen and (max-width:1000px) {
-
 }
