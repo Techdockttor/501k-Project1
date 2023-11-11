@@ -377,7 +377,6 @@ z-index: 1;
 .video-frame2 {
 top: 1197px;
 left: 463px;
-box-shadow: 0 4px 19px rgba(0, 0, 0, 0.23);
 gap: var(--gap-3xs);
 }
 .watch-container {
