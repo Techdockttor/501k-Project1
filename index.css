@@ -393,7 +393,6 @@ justify-content: center;
 padding: var(--padding-2xs) var(--padding-43xl);
 cursor: pointer;
 }
-
 .watch-container:hover {
   transform: scale(1.05);
 }
@@ -512,11 +511,9 @@ box-sizing: border-box;
 font-size: var(--font-size-xl);
 cursor: pointer;
 }
-
 .watch-frame:hover {
 transform: scale(1.05);
 }
-
 .rom-hoodie-parent {
 margin: 0 !important;
 position: absolute;
@@ -1174,7 +1171,7 @@ font-size: var(--font-size-xl);
 color: var(--color-white);
 }
 
-/* -------PART SEVEN---------------- */
+/* -------FOOTER---------------- */
 .footer-section-child {
 position: relative;
 background-color: rgba(0, 0, 0, 0.91);
@@ -1397,6 +1394,17 @@ cursor: pointer;
 }
 
 /* ---------------Header------------------------ */
+.homepage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 5966px;
+  overflow:right;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  }
 .nav-bar-child {
   position: relative;
   width: 1440px;
@@ -1585,12 +1593,9 @@ overflow: hidden;
 flex-shrink: 0;
 cursor: pointer;
 }
-
 .social-icons:hover {
   transform: scale(1.05);
 }
-
-
 .social-icons-parent,
 .socials {
 position: absolute;
@@ -1614,14 +1619,8 @@ left: 1388px;
 flex-direction: row;
 gap: var(--gap-3xs);
 }
-.homepage {
-position: relative;
-background-color: var(--color-white);
-width: 1440px;
-height: 5966px;
-overflow:right;
-text-align: left;
-font-size: var(--font-size-6xl);
-color: var(--color-black);
-font-family: var(--font-poppins);
-}
+
+/* -----ALL OTHER SCREEN APART FROM LARGE SCREEN--- */
+@media screen and (max-width:1000px) {
+  
+} 
